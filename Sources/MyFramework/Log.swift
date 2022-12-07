@@ -67,7 +67,7 @@ public class Logs {
             moveTimerRemaining = getTimerRemainingTime(timer: moveTimer)
         }
         
-        var log = Log(move: move, states: states, gameTimerRemaining: gameTimerRemaining, moveTimerRemaining: moveTimerRemaining)
+        let log = Log(move: move, states: states, gameTimerRemaining: gameTimerRemaining, moveTimerRemaining: moveTimerRemaining)
         
         addLog(log)
         return log

@@ -4,8 +4,8 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "It's package that can give access to tic-tac-toe game engine"
   spec.homepage     = "https://github.com/vichnyi-myzuka/MyFramework"
-  spec.license      = "MIT"
-  spec.source       = { :git => "https://github.com/vichnyi-myzuka/MyFramework.git", :tag => "#{spec.version}" }
+  spec.license      = { :type => 'MIT', :file => 'MIT.txt' }
+  spec.source       = { :git => "https://github.com/vichnyi-myzuka/MyFramework.git" }
   spec.swift_version = "5.7"
   spec.platform = :ios, "13"
 
