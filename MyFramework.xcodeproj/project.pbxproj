@@ -85,16 +85,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_13 /* Types */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_14 /* GameSettings.swift */,
-				OBJ_15 /* Move.swift */,
-				OBJ_16 /* Player.swift */,
-			);
-			path = Types;
-			sourceTree = "<group>";
-		};
 		OBJ_18 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,7 +138,9 @@
 				OBJ_10 /* Log.swift */,
 				OBJ_11 /* MoveEngine.swift */,
 				OBJ_12 /* TicTacToeEngine.swift */,
-				OBJ_13 /* Types */,
+				OBJ_14 /* GameSettings.swift */,
+				OBJ_15 /* Move.swift */,
+				OBJ_16 /* Player.swift */,
 				OBJ_17 /* Utilities.swift */,
 			);
 			name = MyFramework;
