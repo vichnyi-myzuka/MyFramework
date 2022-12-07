@@ -47,7 +47,7 @@ public class Logs {
         logs.append(log)
     }
     
-    internal func getContent() -> [Log] {
+    public func getContent() -> [Log] {
         return logs
     }
     
