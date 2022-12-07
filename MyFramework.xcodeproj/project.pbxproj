@@ -21,7 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		OBJ_30 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Log.swift */; };
+		C1CD201229412E03005FF43F /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Log.swift */; };
 		OBJ_31 /* MoveEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* MoveEngine.swift */; };
 		OBJ_32 /* TicTacToeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* TicTacToeEngine.swift */; };
 		OBJ_33 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* GameSettings.swift */; };
@@ -231,8 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_30 /* Log.swift in Sources */,
 				OBJ_31 /* MoveEngine.swift in Sources */,
+				C1CD201229412E03005FF43F /* Log.swift in Sources */,
 				OBJ_32 /* TicTacToeEngine.swift in Sources */,
 				OBJ_33 /* GameSettings.swift in Sources */,
 				OBJ_34 /* Move.swift in Sources */,
@@ -360,7 +360,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
@@ -385,7 +385,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";

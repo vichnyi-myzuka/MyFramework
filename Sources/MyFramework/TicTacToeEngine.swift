@@ -15,11 +15,6 @@ protocol TicTacToeDelegate {
     func callWhenPlayerChanged()
 }
 
-@available(macOS 10.15, *)
-@available(macOS 10.15, *)
-@available(macOS 10.15, *)
-@available(macOS 10.15, *)
-@available(macOS 10.15, *)
 public class TicTacToeEngine: ObservableObject {
     var delegate: TicTacToeDelegate?
     

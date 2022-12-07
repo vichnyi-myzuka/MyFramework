@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 public struct Log {
     private var gameTimerRemaining: TimeInterval?
     private var moveTimerRemaining: TimeInterval?
