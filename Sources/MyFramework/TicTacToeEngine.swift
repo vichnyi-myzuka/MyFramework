@@ -18,9 +18,9 @@ protocol TicTacToeDelegate {
 public class TicTacToeEngine: ObservableObject {
     var delegate: TicTacToeDelegate?
     
-    @Published private(set) var currentPlayer: PlayerType
-    @Published private(set) var gameEnded: Bool = false
-    @Published private(set) var resigned: Bool = false
+    @Published public private(set) var currentPlayer: PlayerType
+    @Published public private(set) var gameEnded: Bool = false
+    @Published public private(set) var resigned: Bool = false
     
     private var gameTimer: Timer?
     private var moveTimer: Timer?
