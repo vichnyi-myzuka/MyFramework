@@ -76,6 +76,16 @@ public class TicTacToeEngine: ObservableObject {
     private let logs: Logs
     private let moveEngine: MoveEngine
     
+    public init() {
+        self.gameTime = .withoutTimer
+        self.moveTime = .withoutTimer
+        self.currentPlayer = .first
+        self.logs = Logs()
+        self.moveEngine = MoveEngine()
+        
+        prepareGame(gameTime, moveTime)
+    }
+    
     public init(_ gameTime: GameTime, _ moveTime: MoveTime) {
         self.gameTime = gameTime
         self.moveTime = moveTime
