@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = "MyFramework"
+  spec.name         = "TicTacToeGameEngine"
   spec.author       = "Yaroslav Valentyi"
   spec.version      = "0.0.2"
   spec.summary      = "It's package that can give access to tic-tac-toe game engine"
